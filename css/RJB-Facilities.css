@@ -1,0 +1,70 @@
+h3 {
+	font-size: 25px;
+	letter-spacing: 0.2vw;
+	color: #0000ff;
+	font-weight: bold;
+	word-spacing: 1vw;
+}
+
+.thumbnail {
+	width: 320px;
+	margin: auto;
+}
+
+.suvidha {
+	width: 300px;
+	height: 200px;
+	box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+}
+
+p{
+	padding-left: 15px;
+	border-left: 4px solid #bfbfbf;
+	text-align: justify;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 28px 0;
+}
+
+@media only screen and (max-width: 992px) {
+	h3 {
+			font-size: 20px;
+			letter-spacing: 0.15vw;
+			color: #0000ff;
+	}
+
+	p{
+		padding-left: 12px;
+		border-left: 4px solid #bfbfbf;
+		text-align: justify;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.thumbnail {
+		width: 270px;
+		margin: auto;
+	}
+
+	.suvidha {
+		width: 250px;
+		height: 166.67px;
+		box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+	}
+
+	h3 {
+			font-size: 18px;
+			letter-spacing: 0.1vw;
+			color: #0000ff;
+	}
+
+	.suvidha {
+		width: 250px;
+		height: 166.67px;
+		box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+	}
+}

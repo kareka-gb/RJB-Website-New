@@ -1,0 +1,192 @@
+/*Authorities*/
+.authorities {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: auto auto auto;
+	grid-column-gap: 5%;
+	grid-row-gap: 20px;
+}
+
+.a1 {
+	grid-column:1/2;
+	grid-row:1/2;
+}
+
+.a2 {
+	grid-column:2/3;
+	grid-row:1/2;
+}
+
+.a3 {
+	grid-column:3/4;
+	grid-row:1/2;
+}
+
+.a4 {
+	grid-column:1/2;
+	grid-row:2/3;
+}
+
+.a5 {
+	grid-column:2/3;
+	grid-row:2/3;
+}
+
+.a6 {
+	grid-column:3/4;
+	grid-row:2/3;
+}
+
+.a7 {
+	grid-column:1/2;
+	grid-row:3/4;
+}
+
+.a8 {
+	grid-column:2/3;
+	grid-row:3/4;
+}
+
+.a9 {
+	grid-column:3/4;
+	grid-row:3/4;
+}
+
+.image {
+	max-width: 200px;
+	margin: 20px auto 0 auto;
+	box-shadow: -0.45vw 0.3vw 1vw #666666;
+}
+
+.vidit {
+	width: 200px;
+}
+
+h4 {
+	margin: 12px 0 6px 0;
+}
+
+h5 {
+	margin: 10px 0 10px 0;
+	color: #000099;
+}
+
+p{
+	padding-left: 15px;
+	border-left: 4px solid #bfbfbf;
+	text-align: justify;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 28px 0;
+}
+
+.Sec {
+	padding: 10px 0;
+	margin-left: 5vw;
+}
+
+@media only screen and (max-width: 992px) {
+	.authorities {
+		display: grid;
+		grid-template-columns: 40% 40%;
+		grid-template-rows: auto auto auto auto auto;
+		grid-column-gap: 10%;
+		grid-row-gap: 20px;
+	}
+
+	.a1 {
+		grid-column:1/3;
+		grid-row:1/2;
+		margin: auto;
+	}
+
+	.a2 {
+		grid-column:1/2;
+		grid-row:2/3;
+	}
+
+	.a3 {
+		grid-column:2/3;
+		grid-row:2/3;
+	}
+
+	.a4 {
+		grid-column:1/2;
+		grid-row:3/4;
+	}
+
+	.a5 {
+		grid-column:2/3;
+		grid-row:3/4;
+	}
+
+	.a6 {
+		grid-column:1/2;
+		grid-row:4/5;
+	}
+
+	.a7 {
+		grid-column:2/3;
+		grid-row:4/5;
+	}
+
+	.a8 {
+		grid-column:1/2;
+		grid-row:5/6;
+	}
+
+	.a9 {
+		grid-column:2/3;
+		grid-row:5/6;
+	}
+
+	h4 {
+		margin: 12px 0 6px 0;
+	}
+
+	h5 {
+		margin: 6px 0 10px 0;
+	}
+
+	p{
+		padding-left: 12px;
+		border-left: 4px solid #bfbfbf;
+		text-align: justify;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.image{
+			max-width: 125px;
+	}
+
+	h4 {
+		font-size: 16px;
+		margin: 6px 0 3px 0;
+	}
+
+	h5 {
+		font-size: 13px;
+		margin: 5px 0 5px 0;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.image{
+			max-width: 100px;
+	}
+
+	h4 {
+		font-size: 15px;
+		margin: 6px 0 3px 0;
+	}
+
+	h5 {
+		font-size: 12px;
+		margin: 5px 0 5px 0;
+	}
+}

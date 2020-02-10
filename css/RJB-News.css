@@ -1,0 +1,32 @@
+table {
+	width: 100%;
+	background-color: #e6f7ff;
+}
+
+table, th {
+	height: 500px;
+	border: 2px solid #0088cc;
+	border-radius: 20px;
+}
+
+#ul {
+	background-color: #e6f7ff;
+	margin: 0;
+	border: 0; 
+}
+
+#ul li {
+	font-weight: normal;
+}
+
+#ul.li {
+	color: #0000b3;
+}
+
+#ul.list {
+	color: #ff704d;
+}
+
+h3 {
+	color: #4d0099;
+}
