@@ -82,7 +82,7 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     margin: 28px 0;
-    width: 100%;
+    width: 80%;
 }
 
 .Sec {
@@ -158,6 +158,10 @@ hr {
 		border-left: 4px solid #bfbfbf;
 		text-align: justify;
 	}
+
+	hr {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -174,6 +178,10 @@ hr {
 		font-size: 13px;
 		margin: 5px 0 5px 0;
 	}
+
+	hr {
+		width: 95%;
+	}
 }
 
 @media only screen and (max-width: 450px) {
@@ -189,5 +197,9 @@ hr {
 	h5 {
 		font-size: 12px;
 		margin: 5px 0 5px 0;
+	}
+
+	hr {
+		width: 100%;
 	}
 }

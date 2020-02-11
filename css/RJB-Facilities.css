@@ -43,6 +43,10 @@ hr {
 		border-left: 4px solid #bfbfbf;
 		text-align: justify;
 	}
+
+	hr {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,5 +71,15 @@ hr {
 		width: 250px;
 		height: 166.67px;
 		box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+	}
+
+	hr {
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	hr {
+		width: 100%;
 	}
 }
