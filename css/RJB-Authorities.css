@@ -5,6 +5,7 @@
 	grid-template-rows: auto auto auto;
 	grid-column-gap: 5%;
 	grid-row-gap: 20px;
+	padding-bottom: 15px;
 }
 
 .a1 {
@@ -75,14 +76,6 @@ p{
 	padding-left: 15px;
 	border-left: 4px solid #bfbfbf;
 	text-align: justify;
-}
-
-hr {
-	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    margin: 28px 0;
-    width: 80%;
 }
 
 .Sec {
@@ -158,10 +151,6 @@ hr {
 		border-left: 4px solid #bfbfbf;
 		text-align: justify;
 	}
-
-	hr {
-		width: 90%;
-	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -178,10 +167,6 @@ hr {
 		font-size: 13px;
 		margin: 5px 0 5px 0;
 	}
-
-	hr {
-		width: 95%;
-	}
 }
 
 @media only screen and (max-width: 450px) {
@@ -197,9 +182,5 @@ hr {
 	h5 {
 		font-size: 12px;
 		margin: 5px 0 5px 0;
-	}
-
-	hr {
-		width: 100%;
 	}
 }

@@ -33,14 +33,6 @@ h5, p {
 	padding-left: 10px;
 }
 
-hr {
-	border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    margin: 28px 0;
-    width: 80%;
-}
-
 p {
 	margin-top: 0;
 }
@@ -48,10 +40,6 @@ p {
 @media only screen and (max-width: 992px){
 	h4 {
 		margin: 12px 0 6px 0;
-	}
-
-	hr {
-		width: 90%;
 	}
 }
 
@@ -79,10 +67,6 @@ p {
 	h5 {
 		font-size: 13px;
 	}
-
-	hr {
-		width: 95%;
-	}
 }
 
 @media only screen and (max-width: 450px) {
@@ -94,9 +78,5 @@ p {
 	h5 {
 		font-size: 12px;
 		margin: 5px 0 5px 0;
-	}
-
-	hr {
-		width: 100%;
 	}
 }
