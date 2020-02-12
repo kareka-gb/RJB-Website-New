@@ -8,6 +8,12 @@
 	padding-bottom: 15px;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .a1 {
 	grid-column:1/2;
 	grid-row:1/2;
@@ -54,7 +60,7 @@
 }
 
 .image {
-	max-width: 200px;
+	width: 200px;
 	margin: 20px auto 0 auto;
 	box-shadow: -0.45vw 0.3vw 1vw #666666;
 }
@@ -155,7 +161,7 @@ p{
 
 @media only screen and (max-width: 600px) {
 	.image{
-			max-width: 125px;
+			width: 125px;
 	}
 
 	h4 {
@@ -170,8 +176,12 @@ p{
 }
 
 @media only screen and (max-width: 450px) {
+	.authorities div {
+		padding-left: 25px;
+	}
 	.image{
-			max-width: 100px;
+			width: 100px;
+			box-shadow: -0.9vw 0.6vw 2vw #666666;
 	}
 
 	h4 {

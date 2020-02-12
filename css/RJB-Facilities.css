@@ -1,9 +1,16 @@
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 h3 {
 	font-size: 25px;
 	letter-spacing: 0.2vw;
 	color: #0000ff;
 	font-weight: bold;
 	word-spacing: 1vw;
+	padding-left: 20px;
 }
 
 .thumbnail {
@@ -45,12 +52,7 @@ p{
 	.thumbnail {
 		width: 270px;
 		margin: auto;
-	}
-
-	.suvidha {
-		width: 250px;
-		height: 166.67px;
-		box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+		padding-left: 20px;
 	}
 
 	h3 {
@@ -63,5 +65,6 @@ p{
 		width: 250px;
 		height: 166.67px;
 		box-shadow: -0.5vw 0.4vw 1.5vw #666666;
+		margin: auto;
 	}
 }
